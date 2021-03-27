@@ -1,5 +1,6 @@
 {
   "name": "dev-react-profile",
+  "homepage": "http://syafiq-ali.azurewebsites.net/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

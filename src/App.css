@@ -10572,19 +10572,18 @@ img::-moz-selection {
   text-align: center;
   padding: 30px;
   padding-top: 10.5rem;
-  background-image: url('./components/layout/assets/img/main-header.jpg');
+  background-image: url('./components/layout/assets/img/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  min-height: 600px;
+  min-height: 940px;
 }
 
 .site-banner.caption {
-  padding-top: 100px;
+  padding-top: 30px;
   margin: auto;
-  text-align: left;
+  text-align: center;
   display: inline-block;
-  margin: 0 0.5rem;
 
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
@@ -10595,6 +10594,19 @@ img::-moz-selection {
   height: 470px;
   padding: 30px;
   box-shadow: 5px 10px;
+}
+
+.pfp {
+  margin: auto;
+  background-image: url('./components/layout/assets/img/pfp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .mainHeader h1 {

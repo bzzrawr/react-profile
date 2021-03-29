@@ -792,6 +792,8 @@ pre code {
 .col-6 {
   flex: 0 0 50%;
   max-width: 50%;
+  margin: auto;
+  padding-top: 40px;
 }
 
 .col-7 {
@@ -10488,6 +10490,10 @@ img::-moz-selection {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgb(33, 37, 41, 0.5);
+
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  --animate-delay: 0.9s;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10570,7 +10576,25 @@ img::-moz-selection {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  height: 600px;
+  min-height: 600px;
+}
+
+.site-banner.caption {
+  padding-top: 100px;
+  margin: auto;
+  text-align: left;
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.site-banner.pfp {
+  border: 1px solid;
+  height: 470px;
+  padding: 30px;
+  box-shadow: 5px 10px;
 }
 
 .mainHeader h1 {

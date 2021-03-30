@@ -517,6 +517,8 @@ mark,
 
 .figure {
   display: inline-block;
+  text-align: center;
+  font-size: 70px;
 }
 
 .figure-img {
@@ -525,7 +527,7 @@ mark,
 }
 
 .figure-caption {
-  font-size: 90%;
+  font-size: 30%;
   color: #6c757d;
 }
 
@@ -1354,9 +1356,10 @@ pre code {
 }
 @media (min-width: 992px) {
   .col-lg {
+    border-right: 0px solid #e6ecf8;
+    border-left: 1px solid #e6ecf8;
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%;
   }
 
   .row-cols-lg-1 > * {
@@ -4413,6 +4416,12 @@ input[type='button'].btn-block {
   .navbar-expand-md > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg {
+    border-bottom: 1px solid #e6ecf8;
   }
 }
 @media (min-width: 768px) {
@@ -10628,6 +10637,19 @@ img::-moz-selection {
   font-family: 'Montserrat';
   font-size: 1rem;
   font-weight: normal;
+}
+
+.service-section-title {
+  min-height: 100px;
+}
+
+.service-section {
+  text-align: center;
+  margin-top: -14rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #e6ecf8;
+  border-radius: 10px;
 }
 
 header.masthead .masthead-subheading {
